@@ -297,6 +297,7 @@ button
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 25px;
+    margin-top: 25px;
     
 }
 
@@ -308,7 +309,7 @@ button
     top: 50%;
     transform: translate(-50%, -50%);
     width: 110%;
-    height: 110%;
+    height: 100%;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 0px 90px rgba(255, 255, 255, 1);
     filter: blur(10px);
@@ -320,10 +321,15 @@ button
     width: 825px;
     height: 420px;
     display: block;
-    margin: 45px auto;
-    
-    
+    margin: 65px auto;
+    transition: 0.5s;
 }
+
+.our-works-slider .slider-item:hover
+{
+    transform: scale(1.1);
+}
+
 
 .our-works-slider .slider-item img
 {
@@ -333,6 +339,7 @@ button
     height: 100%;
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
 
 .our-works .owl-dot

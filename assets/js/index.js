@@ -15,4 +15,6 @@ function OurWorksSlider()
         nav: true,
         navContainer: '.slider-nav .slider-btns'
     });
+
+    $('.our-works-slider .slider-item').simpleLightbox();
 }
