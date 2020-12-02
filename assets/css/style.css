@@ -745,3 +745,96 @@ footer .footer-info .salut-promo
     transition: 0.5s;
 }
 
+#modalContactForm .modal-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+}
+
+.modal-header .close
+{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.modal-content
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    border: none;
+}
+
+.modal-content:after
+{
+    content: '';
+    position: absolute;
+    width: 94%;
+    height: 94%;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-footer
+{
+    border: none;
+    justify-content: center;
+}
+
+#modalContactForm .btn-wrapper
+{
+    padding-top: 25px;
+}
+
+.modal-header, .modal-body, .modal-footer
+{
+    position: relative;
+    z-index: 5;
+    border: none;
+}
+
+#sendModal .modal-content:after
+{
+    height: 80%;
+}
+
+.modal-header h5
+{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#sendModal .modal-body
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#sendModal .modal-header
+{
+    justify-content: center;
+    padding-top: 35px;
+}
+
+#sendModal .modal-body
+{
+    text-align: center;
+    padding-top: 0;
+}
+
+#sendModal .modal-content
+{
+    min-height: 200px;
+}
+
+
+

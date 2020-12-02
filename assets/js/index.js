@@ -3,6 +3,7 @@ $(document).ready(Core);
 function Core()
 {
     OurWorksSlider();
+    SetForm();
 }
 
 function OurWorksSlider()
@@ -17,4 +18,16 @@ function OurWorksSlider()
     });
 
     $('.our-works-slider .slider-item').simpleLightbox();
+}
+
+function SetForm()
+{
+    $('.btn-contact-modal').on('click', function () {
+        $('#modalContactForm').modal('show')
+    });
+
+    $('.btn-send-form').on('click', function () {
+        $('.modal').modal('hide');
+        $('#sendModal').modal('show');
+    });
 }
