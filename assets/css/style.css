@@ -1,0 +1,13 @@
+@import 'akrobat_family.css';
+
+body
+{
+    padding-top: 90px;
+    font-family: 'Akrobat';
+}
+
+.navbar
+{
+    background-color: #000000;
+    height: 90px;
+}
