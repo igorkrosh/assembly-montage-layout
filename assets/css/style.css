@@ -651,3 +651,32 @@ button
 {
     padding-bottom: 60px;
 }
+
+.title.sm.second
+{
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.last-section
+{
+    background: url('../images/bg/1.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.last-section:after
+{
+    content: '';
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    content: '';
+    height: 620px;
+    width: 620px;
+    background: url('../images/bg/20.50.1101.00.png') no-repeat;
+    background-size: cover;
+    
+    
+}
