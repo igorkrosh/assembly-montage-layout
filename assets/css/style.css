@@ -154,6 +154,26 @@ button
     transform: scale(1.1);
 }
 
+.btn-green-border
+{
+    text-transform: uppercase;
+    width: 270px;
+    height: 60px;
+    background: none;
+    border-radius: 10px;
+    border: 3px solid #21a932;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn-green-border:hover
+{
+    color: #ffffff;
+    background: #21a932;
+}
+
 .first-section  .btn-wrapper
 {
     margin-bottom: 60px;
@@ -274,7 +294,8 @@ button
 {
     position: relative;
     z-index: 5;
-    
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 25px;
     
 }
@@ -283,12 +304,13 @@ button
 {
     content: '';
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0px 0px 80px rgba(255, 255, 255, 1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 90px rgba(255, 255, 255, 1);
     filter: blur(10px);
     z-index: -1;
 }
