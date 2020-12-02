@@ -37,7 +37,7 @@ button
     transition: 0.5s;
 }
 
-.navbar .menu-item:hover
+.navbar .menu-item:hover, .navbar .menu-item.active
 {
     color: #35ae39;
 }
