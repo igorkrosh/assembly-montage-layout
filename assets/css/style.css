@@ -846,5 +846,10 @@ input.error
     border-color: #dc3545;
 }
 
+section
+{
+    overflow: hidden;
+}
+
 
 

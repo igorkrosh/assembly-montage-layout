@@ -6,6 +6,7 @@ function Core()
     SetForm();
     SetAncors();
     CheckScroll();
+    InitWow();
 }
 
 function OurWorksSlider()
@@ -132,4 +133,12 @@ function SetAncors()
             behavior: 'smooth'
         });
     })
+}
+
+function InitWow()
+{
+    let wow = new WOW({
+        animateClass: 'animate__animated',
+    })
+    wow.init();
 }
