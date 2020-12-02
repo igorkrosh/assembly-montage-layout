@@ -103,7 +103,7 @@
                         <li>- Сортируем заводской брак и при необходимости его исправляем</li>
                     </ul>
                     <div class="btn-wrapper">
-                        <button class="btn-green">Заказать сборку</button>
+                        <button class="btn-green btn-contact-modal">Заказать сборку</button>
                         <button class="btn-green-border">Прайс лист для юр.лиц</button>
                     </div>
 
@@ -147,24 +147,25 @@
                         <form class="contact-form" action="">
                             <div class="form-group">
                                 <label>Ваше имя</label>
-                                <input type="text" name="name" class="form-control">
+                                <input type="text" name="name" class="form-control" required >
                             </div>
                             <div class="form-group">
                                 <label>Ваш номер телефона</label>
-                                <input type="tel" name="phone" class="form-control">
+                                <input type="tel" name="phone" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>Ваш e-mail</label>
-                                <input type="mail" name="mail" class="form-control">
+                                <input type="mail" name="mail" class="form-control" required >
                             </div>
                             <div class="form-group">
                                 <label>Город</label>
-                                <input type="text" name="city" class="form-control">
+                                <input type="text" name="city" class="form-control" required >
+                            </div>
+                            <div class="btn-wrapper">
+                                <button type="submit" class="btn-green btn-send-form">Отправить</button>
                             </div>
                         </form>
-                        <div class="btn-wrapper">
-                            <button class="btn-green">Отправить</button>
-                        </div>
+                        
                         <span class="personal-data"> нажимая кнопку, вы соглашаетесь на обработку <br>персональных данных </span>
                     </div>
                     <div class="second-card"></div>
@@ -181,7 +182,7 @@
                     <span class="price-value">от 200 р.</span>
                     <span class="price-description">Соберём: кресла, диваны<br> и многое другое</span>
                     <div class="btn-wrapper">
-                        <button class="btn-green">заказать</button>
+                        <button class="btn-green btn-contact-modal">заказать</button>
                         <button class="btn-green-border white">скачать прайс-лист</button> 
                     </div>
                 </div>
@@ -190,7 +191,7 @@
                     <span class="price-value">от 200 р.</span>
                     <span class="price-description">Соберём: столы, тумбы, шкафы,<br>стойки ресепшн и многое другое</span>
                     <div class="btn-wrapper">
-                        <button class="btn-green">заказать</button>
+                        <button class="btn-green btn-contact-modal">заказать</button>
                         <button class="btn-green-border white">скачать прайс-лист</button> 
                     </div>
                 </div>
@@ -199,7 +200,7 @@
                     <span class="price-value">от 200 р.</span>
                     <span class="price-description">Установка мойки, варочной панели,<br>смесителя, духовки и многое другое</span>
                     <div class="btn-wrapper">
-                        <button class="btn-green">заказать</button>
+                        <button class="btn-green btn-contact-modal">заказать</button>
                         <button class="btn-green-border white">скачать прайс-лист</button> 
                     </div>
                 </div>
@@ -219,7 +220,7 @@
                 <li>-Надежно собранную мебель.</li>
             </ul>
             <h2 class="title sm second">С нами мебель прослужит еще дольше!</h2>
-            <button class="btn-green">заказать сборку</button>
+            <button class="btn-green btn-contact-modal">заказать сборку</button>
         </div>
     </section>
     <footer>
@@ -265,24 +266,25 @@
                 <form class="contact-form" action="">
                     <div class="form-group">
                         <label>Ваше имя</label>
-                        <input type="text" name="name" class="form-control">
+                        <input type="text" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Ваш номер телефона</label>
-                        <input type="tel" name="phone" class="form-control">
+                        <input type="tel" name="phone" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Ваш e-mail</label>
-                        <input type="mail" name="mail" class="form-control">
+                        <input type="mail" name="mail" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Город</label>
-                        <input type="text" name="city" class="form-control">
+                        <input type="text" name="city" class="form-control" required>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button type="submit" class="btn-green btn-send-form">Отправить</button>
                     </div>
                 </form>
-                <div class="btn-wrapper">
-                    <button class="btn-green btn-send-form">Отправить</button>
-                </div>
+                
             </div>
             <div class="modal-footer">
                 <span class="personal-data"> нажимая кнопку, вы соглашаетесь на обработку <br>персональных данных </span>
@@ -304,13 +306,18 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
 
     <script src="assets/js/lib/jquery-3.5.1.min.js"></script>
     <script src="assets/js/lib/popper.min.js"></script>
     <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
     <script src="assets/js/lib/owl.carousel.min.js"></script>
     <script src="assets/js/lib/simpleLightbox.min.js"></script>
+
+    
+    <script src="assets/js/lib/jquery.validate.min.js"></script>
+    <script src="assets/js/lib/messages_ru.min.js"></script>
+    <script src="assets/js/lib/jquery.maskedinput.min.js"></script>
 
     <script src="assets/js/index.js"></script>
 </body>

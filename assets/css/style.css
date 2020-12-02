@@ -836,5 +836,15 @@ footer .footer-info .salut-promo
     min-height: 200px;
 }
 
+label.error
+{
+    color: #dc3545;
+}
+
+input.error
+{
+    border-color: #dc3545;
+}
+
 
 
