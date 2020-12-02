@@ -453,3 +453,142 @@ button
 {
     transform: scale(1.2);
 }
+
+.contact-us
+{
+    padding: 60px 0;
+    background-image: url('../images/bg/Mockup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-us h1
+{
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.contact-us .text-green
+{
+    font-size: 62px;
+    display: block;
+    color: #21a932;
+}
+
+.contact-us .text-big
+{
+    font-size: 62px;
+    display: block;
+}
+
+.form-title
+{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.form-title.sm
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form-group input
+{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.form-group label
+{
+    display: block;
+    text-align: center;
+    color: #a0a0a0;
+}
+
+.contact-form-wrapper .form-title:first-child
+{
+    margin-top: 15px;
+}
+
+.contact-form-wrapper .contact-form
+{
+    margin-top: 25px;
+    position: relative;
+    z-index: 5;
+}
+
+.contact-form
+{
+    padding: 0 50px;
+}
+
+.contact-form input:focus
+{
+    box-shadow: none;
+    border-color: #21a932;
+    color: #000000;
+}
+
+.contact-form-wrapper .btn-wrapper
+{
+    margin: 25px 0;
+    position: relative;
+    z-index: 5;
+}
+
+.personal-data
+{
+    text-align: center;
+    display: block;
+    color: #a0a0a0;
+}
+
+.contact-form-wrapper .personal-data
+{
+    margin-bottom: 15px;
+}
+
+.contact-form-wrapper
+{
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+
+.contact-form-wrapper:after
+{
+    content: '';
+    position: absolute;
+    width: 94%;
+    height: 94%;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.contact-form-wrapper:before
+{
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 23%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #ffffff;
+    z-index: -1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
