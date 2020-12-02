@@ -560,6 +560,7 @@ button
     border-radius: 10px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
     position: relative;
+    z-index: 5;
 }
 
 
@@ -578,9 +579,8 @@ button
     
 }
 
-.contact-form-wrapper:before
+.second-card
 {
-    content: '';
     position: absolute;
     width: 75%;
     height: 23%;
@@ -588,7 +588,66 @@ button
     left: 50%;
     transform: translate(-50%);
     background: #ffffff;
-    z-index: -1;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+.price-item
+{
+    width: 325px;
+    height: 450px;
+    background: #242424;
+    border-radius: 10px;
+    padding: 25px 0;
+    color: #ffffff;
+}
+
+.price-item .price-title
+{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.price-item .price-value
+{
+    display: block;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+    background: #000000;
+}
+
+.price-item .price-description
+{
+    padding: 25px 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+
+.price-item .btn-wrapper .btn-green
+{
+    margin-bottom: 25px;
+}
+
+.btn-green-border.white
+{
+    color: #ffffff;
+}
+
+.prices-wraper
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.prices
+{
+    padding-bottom: 60px;
 }
