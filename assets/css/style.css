@@ -854,8 +854,13 @@ section
 .stock-man
 {
     position: absolute;
-    right: 5%;
+    right: 50px;
     bottom: 0;
     z-index: 10;
+}
+
+.icon-mobile
+{
+    display: none;
 }
 

@@ -1,0 +1,48 @@
+@media (max-width: 1440px)
+{
+    .stock-man
+    {
+        width: 400px;
+    }
+
+    .last-section:after
+    {
+        right: 5%;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .navbar .icon-desktop
+    {
+        display: none;
+    }
+
+    .navbar .icon-mobile
+    {
+        display: block;
+    }
+
+    .btn-green, .btn-green-border
+    {
+        width: 230px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .price-item
+    {
+        width: 290px;
+    }
+
+    .last-section:after
+    {
+        width: 420px;
+        height: 420px;
+    }
+
+    .stock-man
+    {
+        right: 25px;
+    }
+}
