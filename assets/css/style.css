@@ -851,5 +851,11 @@ section
     overflow: hidden;
 }
 
-
+.stock-man
+{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    z-index: 10;
+}
 
