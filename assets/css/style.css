@@ -93,6 +93,16 @@ button
     background-image: url('../images/icons/mail.png');
 }
 
+.contacts-item.addres:after
+{
+    background-image: url('../images/icons/addres.png');
+}
+
+.contacts-item.addres
+{
+    font-weight: 400;
+}
+
 .contacts-wrapper
 {
     display: inline-block;
@@ -600,6 +610,7 @@ button
     border-radius: 10px;
     padding: 25px 0;
     color: #ffffff;
+    transition: 0.5s;
 }
 
 .price-item .price-title
@@ -619,6 +630,7 @@ button
     text-align: center;
     padding: 10px 0;
     background: #000000;
+    transition: 0.5s;
 }
 
 .price-item .price-description
@@ -633,6 +645,11 @@ button
 .price-item .btn-wrapper .btn-green
 {
     margin-bottom: 25px;
+}
+
+.price-item:hover
+{
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.9);
 }
 
 .btn-green-border.white
@@ -677,6 +694,54 @@ button
     width: 620px;
     background: url('../images/bg/20.50.1101.00.png') no-repeat;
     background-size: cover;
-    
-    
 }
+
+footer
+{
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+footer .contacts-wrapper
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contacts-wrapper .contacts-item
+{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.copyright
+{
+    font-size: 14px;
+}
+
+footer .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-info
+{
+    width: 270px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer .footer-info .wrapper
+{
+    margin-bottom: 15px;
+}
+
+footer .footer-info .salut-promo
+{
+    color: #35ae39;
+    display: inline-block;
+    transition: 0.5s;
+}
+
