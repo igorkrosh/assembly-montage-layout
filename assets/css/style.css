@@ -181,6 +181,9 @@ button
     font-size: 24px;
     font-weight: 500;
     transition: 0.5s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-green-border:hover
