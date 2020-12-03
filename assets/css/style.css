@@ -859,7 +859,8 @@ section
 .stock-man
 {
     position: absolute;
-    right: 50px;
+    left: 50%;
+    transform: translateX(30%);
     bottom: 0;
     z-index: 10;
 }
