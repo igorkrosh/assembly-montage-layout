@@ -7,6 +7,7 @@ function Core()
     SetAncors();
     CheckScroll();
     InitWow();
+    SetMobileMenu();
 }
 
 function OurWorksSlider()
@@ -141,4 +142,27 @@ function InitWow()
         animateClass: 'animate__animated',
     })
     wow.init();
+}
+
+function SetMobileMenu()
+{
+    $('.btn-menu').on('click', function() {
+        if ($(this).hasClass('active'))
+        {
+            $(this).removeClass('active');
+            $('.menu').removeClass('active');
+            $('body').removeClass('lock');
+        }
+        else
+        {
+            $(this).addClass('active');
+            $('.menu').addClass('active');
+            $('body').addClass('lock');
+        }        
+    });
+
+    $('.menu .menu-item').on('click', function() {
+        $('.navbar .active').removeClass('active');
+        $('body').removeClass('lock');
+    })
 }

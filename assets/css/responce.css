@@ -106,3 +106,332 @@
         width: 720px;
     }
 }
+
+@media(max-width: 768px)
+{
+    .menu
+    {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: -1;
+        transition: 0.5s;
+    }
+
+    .menu.active
+    {
+        left: 0;
+    }
+
+    .menu .menu-item
+    {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .btn-menu
+    {
+        display: block;
+    }
+
+    .contacts-row
+    {
+        justify-content: center;
+    }
+
+    .title
+    {
+        font-size: 28px;
+    }
+
+    .about-us p
+    {
+        width: auto;
+    }
+
+    .stock-man
+    {
+        display: none;
+    }
+
+    .our-works-slider .slider-item
+    {
+        width: 576px;
+        height: 320px;
+    }
+
+    .contact-form-wrapper
+    {
+        margin: 50px;
+    }
+
+    .second-card
+    {
+        top: 75%;
+    }
+
+    .last-section:after
+    {
+        content: none;
+    }
+
+    footer .contacts-item
+    {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:576px)
+{
+    .contacts-wrapper
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .first-section .contacts-item
+    {
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    .first-section .contacts-item.phone
+    {
+        font-size: 23px;
+    }
+
+    .first-section-title
+    {
+        font-size: 48px;
+        margin: 20px 0px;
+    }
+
+    .first-section-title .text-green
+    {
+        font-size: 42px;
+    }
+
+    .first-section-title .text-sm
+    {
+        font-size: 31px;
+    }
+
+    .pluses-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pluses-wrapper .plus-item
+    {
+        margin-bottom: 15px;
+        
+    }
+
+    .plus-item .plus-text
+    {
+        font-size: 25px;
+    }
+
+    .title
+    {
+        font-size: 33px;
+        padding-top: 45px;
+        font-weight: 800;
+    }
+
+    .about-us:after, .col-pluses:after
+    {
+        background: #ffffff;
+    }
+
+    .about-us:after
+    {
+        height: 60%;
+    }
+
+    .col-pluses
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .col-pluses .btn-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-pluses .btn-wrapper .btn-green
+    {
+        margin-bottom: 15px;
+    }
+
+    .btn-green, .btn-green-border
+    {
+        width: 250px;
+        height: 55px;
+    }
+
+    .stock-man
+    {
+        display: block;
+        left: 5%;
+        width: 234px;
+    }
+
+    .about-us
+    {
+        padding-bottom: 400px;
+        background-position-y: 170%;
+    }
+
+    .our-works-slider .slider-item
+    {
+        width: 270px;
+        height: 150px;
+        margin: 25px auto;
+    }
+
+    .our-works .owl-prev, .our-works .owl-next
+    {
+        width: 45px;
+        height: 40px;
+    }
+
+    .our-works .owl-prev:after
+    {
+        background-image: url('../images/icons/slider-prev-sm.png');
+        width: 10px;
+        height: 19px;
+        left: 16px;
+    }
+
+    .our-works .owl-next::after
+    {
+        background-image: url('../images/icons/slider-next-sm.png');
+        width: 10px;
+        height: 19px;
+        right: 16px;
+    }
+
+    .our-works
+    {
+        padding-bottom: 0;
+    }
+
+    .contact-us h1
+    {
+        text-align: center;
+    }
+
+    .contact-us .text-green
+    {
+        font-size: 53px;
+    }
+
+    .contact-us .text-big
+    {
+        font-size: 45px;
+    }
+
+    .contact-form-wrapper
+    {
+        margin: 25px 0px;
+    }
+
+    .form-title.sm
+    {
+        font-size: 17px;
+    }
+
+    .contact-form
+    {
+        padding: 0;
+    }
+
+    .personal-data
+    {
+        font-size: 12px;
+    }
+
+    .second-card
+    {
+        width: 75%;
+    }
+
+    .contact-us, .prices
+    {
+        padding-bottom: 0;
+    }
+
+    .prices-wraper
+    {
+        padding-top: 0;
+    }
+
+    .prices .container
+    {
+        padding: 0;
+    }
+
+    .price-item
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .last-section .title.sm
+    {
+        font-size: 30px;
+    }
+
+    .last-section:after
+    {
+        content: '';
+        top: auto;
+        bottom: 50px;
+        width: 270px;
+        height: 270px;
+    }
+
+    .last-section
+    {
+        padding-bottom: 400px;
+    }
+
+    footer .container
+    {
+        flex-direction: column;
+    }
+
+    .contacts-wrapper
+    {
+        align-items: flex-start;
+    }
+
+    footer .contacts-wrapper .contacts-item
+    {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    footer .contacts-wrapper .contacts-item.phone span
+    {
+        display: block;
+    }
+
+    footer .footer-info
+    {
+        width: 100%;
+    }
+}
