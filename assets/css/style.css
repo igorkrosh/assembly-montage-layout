@@ -933,3 +933,8 @@ section
 {
     transform: translate(-50%, -50%) rotate(135deg);
 }
+
+.contacts-item.addres:hover
+{
+    transform: none;
+}
