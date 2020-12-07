@@ -54,10 +54,24 @@ function SetForm()
     $('form input[name=phone]').mask("+7(999)999-9999", {autoclear: false});
 }
 
-function SubmitForm()
+function SubmitForm(form)
 {
+	let contactsData = $(form).serialize();
+
+	$.ajax({
+		type: "POST",	
+		url: "mailer.php",	
+		data: contactsData	
+	});
+
+	$(form).find("input").val("");
+  
     $('.modal').modal('hide');
-    $('#sendModal').modal('show');
+	$('#sendModal').modal('show');
+
+	setTimeout(function() {
+		$('#sendModal').modal('hide');
+	}, 2000)
 }
 
 function CheckScroll() 
