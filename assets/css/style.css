@@ -328,9 +328,9 @@ button
     transform: translate(-50%, -50%);
     width: 110%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 0px 90px rgba(255, 255, 255, 1);
-    filter: blur(10px);
+    filter: blur(50px);
     z-index: -1;
 }
 
@@ -613,7 +613,7 @@ button
 .price-item
 {
     width: 325px;
-    height: 450px;
+    height: 530px;
     background: #242424;
     border-radius: 10px;
     padding: 25px 0;
@@ -937,4 +937,17 @@ section
 .contacts-item.addres:hover
 {
     transform: none;
+}
+
+
+.logo
+{
+    width: 355px;
+    height: 58px;
+    background-image: url(../images/logo.png);
+}
+
+.price-icon
+{
+    text-align: center;
 }

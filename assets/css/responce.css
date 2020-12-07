@@ -45,6 +45,13 @@
     {
         right: 25px;
     }
+
+    .logo
+    {
+        width: 227px;
+        height: 37px;
+        background-image: url(../images/logo-sm.png);
+    }
 }
 
 @media(max-width: 992px)
@@ -87,6 +94,8 @@
     .price-item
     {
         margin-top: 25px;
+        width: 320px;
+        height: 505px;
     }
 
     .last-section:after
@@ -435,3 +444,22 @@
         width: 100%;
     }
 }
+
+@media 
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 2)
+    {
+        .logo
+        {
+            width: 227px;
+            height: 37px;
+            background-image: url(../images/logo.png);
+            background-size: 227px;
+        }
+    }
